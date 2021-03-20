@@ -1,0 +1,15 @@
+export const SET_ALERT = 'SET_ALERT';
+export const REMOVE_ALERT = 'REMOVE_ALERT';
+export const REGISTER_SUCCESS = 'REGISTER_SUCCESS';
+export const REGISTER_FAIL = 'REGISTER_FAIL';
+export const USER_LOADED = 'USER_LOADED';
+export const AUTH_ERROR = 'AUTH_ERROR';
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGIN_FAIL = 'LOGIN_FAIL';
+export const ADD_DOCTORS = 'ADD_DOCTORS';
+export const DOCTOR_ERROR = 'DOCTOR_ERROR';
+export const ADD_USER = 'ADD_USER';
+export const USER_ERROR = 'USER_ERROR';
+export const CAD_LOADED = 'CAD_LOADED';
+export const LOGIN_CAD_SUCCESS = 'LOGIN_CAD_SUCCESS';
+export const LOGIN_CAD_FAIL = 'LOGIN_CAD_FAIL';
