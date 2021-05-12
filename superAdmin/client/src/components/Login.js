@@ -33,25 +33,22 @@ const Login = ({ login, isAuthenticated }) => {
     return (
         <div>
             <div id="single-wrapper">
-        <form action="#" class="frm-single" onSubmit = {e => onSubmit(e)}>
-            <div class="inside">
-                <div class="title"><img src="assets/images/tac-logo.png" alt=""/></div>
+            <form action="#" className="frm-single" onSubmit = {e => onSubmit(e)}>
+            <div className="inside">
+                <div className="title"><img src="assets/images/tac-logo.png" alt=""/></div>
                 {/* <!-- /.title --> */}
-                <div class="frm-title margin-top-20"><strong>Admin Login</strong></div>
+                <div className="frm-title margin-top-20"><strong>Super Admin Login</strong></div>
                 {/* <!-- /.frm-title --> */}
-                <div class="frm-input"><input type="text" placeholder="Username" name="username" value={username} onChange={ e=>onChange(e) } class="frm-inp"/><i class="fa fa-user frm-ico"></i></div>
+                <div className="frm-input"><input type="text" placeholder="Username" name="username" value={username} onChange={ e=>onChange(e) } className="frm-inp"/><i className="fa fa-user frm-ico"></i></div>
                 {/* <!-- /.frm-input --> */}
-                <div class="frm-input"><input type="password" placeholder="Password" name="password" value={password} onChange={e=>onChange(e)} class="frm-inp"/><i class="fa fa-lock frm-ico"></i></div>
+                <div className="frm-input"><input type="password" placeholder="Password" name="password" value={password} onChange={e=>onChange(e)} className="frm-inp"/><i className="fa fa-lock frm-ico"></i></div>
                 {/* <!-- /.frm-input --> */}
-                <div class="clearfix margin-bottom-20">
-                    <div class="pull-right"><a href="page-recoverpw.html" class="a-link"><i class="fa fa-unlock-alt"></i>Forgot password?</a></div>
+                <div className="clearfix margin-bottom-20">
+                    <div className="pull-right"><a href="page-recoverpw.html" className="a-link"><i className="fa fa-unlock-alt"></i>Forgot password?</a></div>
                     {/* <!-- /.pull-right --> */}
                 </div>
                 {/* <!-- /.clearfix --> */}
-                <button type="submit" class="frm-submit">Login<i class="fa fa-arrow-circle-right"></i></button>
-
-                {/* <!-- /.row --> */}
-                <a href="page-register.html" class="a-link"><i class="fa fa-key"></i>New to TAC Aligners? Register.</a>
+                <button type="submit" className="frm-submit">Login<i className="fa fa-arrow-circle-right"></i></button>
 
                 {/* <!-- /.footer --> */}
             </div>
@@ -62,10 +59,6 @@ const Login = ({ login, isAuthenticated }) => {
         </div>
     )
 }
-
-// Login.PropTypes = {
-//     setAlert: PropTypes.func.isRequired,
-// };
 
 Login.propTypes = {
     login: PropTypes.func.isRequired,
